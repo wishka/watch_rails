@@ -42,12 +42,10 @@
 
     group :test do
       gem 'capybara', '>= 2.15'
-      gem 'chromedriver-helper'
       gem 'db-query-matchers'
       gem 'json_spec'
       gem 'launchy'
       gem 'rubocop', require: false
-      gem 'selenium-webdriver'
       gem 'shoulda-matchers'
       gem 'webdrivers'
     end
