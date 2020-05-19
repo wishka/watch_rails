@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="watch_shop_development@localhost" uuid="5862a0f4-c497-418f-b8fe-e9fd917fdfa3">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/watch_shop_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="watch_shop_test@localhost" uuid="3390756e-c5cf-4f0c-a8ce-fbcbdff0a8c5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/watch_shop_test</jdbc-url>
+    </data-source>
+  </component>
+</project>
