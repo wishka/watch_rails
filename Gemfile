@@ -4,16 +4,17 @@
     git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
     ruby '2.6.6'
+    gem 'ancestry' #Гем для создания вложенных категорий
+    gem 'meta-tags' # Позволяет создавать мета-теги
+    gem 'breadcrumbs_on_rails'
     gem 'activestorage'
-    gem 'sqlite3', '~> 1.4'
-    gem 'bootstrap-sass', '~> 3.4.1'
+    gem 'bootstrap-sass', '~> 3.4.1' # Расширяет возможности CSS
     gem 'coffee-rails', '~> 4.2'
-    gem 'faker'
+    gem 'faker' # Фэйковые наименования
     gem 'jbuilder', '~> 2.7'
     gem 'jquery-rails'
-    gem 'oj'
-    gem 'oj_mimic_json'
-    gem 'pq'
+    gem 'oj' # Ускорение json
+    gem 'oj_mimic_json' # Ускорение json
     gem 'puma', '~> 4.1'
     gem 'rails'
     gem 'sass-rails', '>= 6'
@@ -26,13 +27,13 @@
 
     group :development, :test do
       gem 'database_cleaner'
-      gem 'factory_bot'
-      gem 'pg', '~> 1.1'
-      gem 'pry'
+      gem 'factory_bot' # Необходим для rspec-тестирования
+      gem 'pg' # База Postgres
+      gem 'pry' # Дебаггер
       gem 'rails-controller-testing'
       gem 'rb-readline'
       gem 'rspec-json_expectations'
-      gem 'rspec-rails'
+      gem 'rspec-rails' # Инструменты для тестирования
     end
 
     group :development do

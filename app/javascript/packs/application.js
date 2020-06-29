@@ -6,7 +6,20 @@
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
-require("channels")
+require("jquery-1.11.0.min")
+require("bootstrap.min")
+require("typehead.bundle")
+require("jquery.easydropdown")
+require("easydrop")
+require("memenu")
+require("mem")
+require("responsiveslides.min")
+require("responsive")
+require("imagezoom")
+require("jquery.flexslider")
+require("flexs")
+require("simpleCart.min")
+require("slideshow")
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
