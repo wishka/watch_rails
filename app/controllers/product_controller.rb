@@ -1,5 +1,6 @@
 class ProductController < ApplicationController
   after_action :register_visit, only: [:show]
+  add_breadcrumb "home", :root_path
 
   def show
     @product = Product.find(params[:id])
@@ -29,6 +30,6 @@ class ProductController < ApplicationController
 
   def set_page_options
     set_meta_tags product.slice(:title, :keywords, :description)
-
+    add_breadcrumb name 'Home', path :root_path, title: 'Home'
   end
 end
