@@ -15,7 +15,7 @@
     gem 'jquery-rails'
     gem 'oj' # Ускорение json
     gem 'oj_mimic_json' # Ускорение json
-    gem 'puma', '~> 4.1'
+    gem 'puma', '~> 4.3'
     gem 'rails'
     gem 'sass-rails', '>= 6'
     gem 'sassc-rails', '>= 2.1.0'
